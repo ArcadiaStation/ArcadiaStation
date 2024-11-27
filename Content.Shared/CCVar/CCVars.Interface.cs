@@ -14,7 +14,7 @@ public sealed partial class CCVars
         CVarDef.Create("ui.layout", "Default", CVar.CLIENTONLY | CVar.ARCHIVE);
 
     public static readonly CVarDef<string> UILayoutArcadia =
-        CVarDef.Create("ui.layout", "Default", CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("ui.layout_arcadia", "Separated", CVar.CLIENTONLY | CVar.ARCHIVE);
 
     public static readonly CVarDef<string> DefaultScreenChatSize =
         CVarDef.Create("ui.default_chat_size", "", CVar.CLIENTONLY | CVar.ARCHIVE);

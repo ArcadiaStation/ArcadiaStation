@@ -93,7 +93,7 @@ namespace Content.Client.Gameplay
             var screenTypeString = _configurationManager.GetCVar(CCVars.UILayoutArcadia);
             if (!Enum.TryParse(screenTypeString, out ScreenType screenType))
             {
-                screenType = separated;
+                screenType = default;
             }
 
             switch (screenType)
