@@ -16,7 +16,9 @@ namespace Content.Shared.Humanoid.Markings
         Arms,
         Legs,
         Tail,
-        Overlay
+        Overlay,
+        Feet, //ArcadiaStationChange
+        Hands //ArcadiaStationChange
     }
 
     public static class MarkingCategoriesConversion
@@ -35,12 +37,12 @@ namespace Content.Shared.Humanoid.Markings
                 HumanoidVisualLayers.Chest => MarkingCategories.Chest,
                 HumanoidVisualLayers.RArm => MarkingCategories.Arms,
                 HumanoidVisualLayers.LArm => MarkingCategories.Arms,
-                HumanoidVisualLayers.RHand => MarkingCategories.Arms,
-                HumanoidVisualLayers.LHand => MarkingCategories.Arms,
+                HumanoidVisualLayers.RHand => MarkingCategories.Hands, //ArcadiaStationChange
+                HumanoidVisualLayers.LHand => MarkingCategories.Hands, //ArcadiaStationChange
                 HumanoidVisualLayers.LLeg => MarkingCategories.Legs,
                 HumanoidVisualLayers.RLeg => MarkingCategories.Legs,
-                HumanoidVisualLayers.LFoot => MarkingCategories.Legs,
-                HumanoidVisualLayers.RFoot => MarkingCategories.Legs,
+                HumanoidVisualLayers.LFoot => MarkingCategories.Feet, //ArcadiaStationChange
+                HumanoidVisualLayers.RFoot => MarkingCategories.Feet, //ArcadiaStationChange
                 HumanoidVisualLayers.Tail => MarkingCategories.Tail,
                 _ => MarkingCategories.Overlay
             };
