@@ -1,0 +1,5 @@
+- type: entity
+  save: false
+  name: Urist McBeep
+  parent: BaseMobIPC
+  id: MobIPC

@@ -1,0 +1,834 @@
+# Morpheus Cyberkinetics
+
+- type: marking
+  id: IPCHeadMorpheus
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: head
+
+- type: marking
+  id: IPCHeadMorpheusAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: head_alt
+
+- type: marking
+  id: IPCChestMorpheus
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: torso
+
+- type: marking
+  id: IPCLLegMorpheus
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: l_leg
+
+- type: marking
+  id: IPCRLegMorpheus
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: r_leg
+
+- type: marking
+  id: IPCLArmMorpheus
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: l_arm
+
+- type: marking
+  id: IPCRArmMorpheus
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: r_arm
+
+- type: marking
+  id: IPCLFootMorpheus
+  bodyPart: LFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: l_foot
+
+- type: marking
+  id: IPCRFootMorpheus
+  bodyPart: RFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: r_foot
+
+- type: marking
+  id: IPCLHandMorpheus
+  bodyPart: LHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: l_hand
+
+- type: marking
+  id: IPCRHandMorpheus
+  bodyPart: RHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/morpheus.rsi
+    state: r_hand
+
+# Bishop Cybernetics
+
+- type: marking
+  id: IPCHeadBishop
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: head
+
+- type: marking
+  id: IPCHeadBishopAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: head_alt
+
+- type: marking
+  id: IPCHeadBishopMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: head_monitor
+
+- type: marking
+  id: IPCChestBishop
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: torso
+
+- type: marking
+  id: IPCLLegBishop
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: l_leg
+
+- type: marking
+  id: IPCRLegBishop
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: r_leg
+
+- type: marking
+  id: IPCLArmBishop
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: l_arm
+
+- type: marking
+  id: IPCRArmBishop
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: r_arm
+
+- type: marking
+  id: IPCLFootBishop
+  bodyPart: LFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: l_foot
+
+- type: marking
+  id: IPCRFootBishop
+  bodyPart: RFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: r_foot
+
+- type: marking
+  id: IPCLHandBishop
+  bodyPart: LHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: l_hand
+
+- type: marking
+  id: IPCRHandBishop
+  bodyPart: RHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/bishop.rsi
+    state: r_hand
+
+# Hephaestus Industries
+
+- type: marking
+  id: IPCHeadHephaestus
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: head
+
+- type: marking
+  id: IPCHeadHephaestusAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: head_alt
+
+- type: marking
+  id: IPCHeadHephaestusMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: head_monitor
+
+- type: marking
+  id: IPCChestHephaestus
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: torso
+
+- type: marking
+  id: IPCLLegHephaestus
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: l_leg
+
+- type: marking
+  id: IPCRLegHephaestus
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: r_leg
+
+- type: marking
+  id: IPCLArmHephaestus
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: l_arm
+
+- type: marking
+  id: IPCRArmHephaestus
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: r_arm
+
+- type: marking
+  id: IPCLFootHephaestus
+  bodyPart: LFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: l_foot
+
+- type: marking
+  id: IPCRFootHephaestus
+  bodyPart: RFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: r_foot
+
+- type: marking
+  id: IPCLHandHephaestus
+  bodyPart: LHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: l_hand
+
+- type: marking
+  id: IPCRHandHephaestus
+  bodyPart: RHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/hephaestus.rsi
+    state: r_hand
+
+# Ward-Takahashi
+
+- type: marking
+  id: IPCHeadWardTakahashi
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: head
+
+- type: marking
+  id: IPCHeadWardTakahashiAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: head_alt
+
+- type: marking
+  id: IPCHeadWardTakahashiMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: head_monitor
+
+- type: marking
+  id: IPCChestWardTakahashi
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: torso
+
+- type: marking
+  id: IPCLLegWardTakahashi
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: l_leg
+
+- type: marking
+  id: IPCRLegWardTakahashi
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: r_leg
+
+- type: marking
+  id: IPCLArmWardTakahashi
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: l_arm
+
+- type: marking
+  id: IPCRArmWardTakahashi
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: r_arm
+
+- type: marking
+  id: IPCLFootWardTakahashi
+  bodyPart: LFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: l_foot
+
+- type: marking
+  id: IPCRFootWardTakahashi
+  bodyPart: RFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: r_foot
+
+- type: marking
+  id: IPCLHandWardTakahashi
+  bodyPart: LHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: l_hand
+
+- type: marking
+  id: IPCRHandWardTakahashi
+  bodyPart: RHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/wardtakahashi.rsi
+    state: r_hand
+
+# Xion Manufacturing Group
+
+- type: marking
+  id: IPCHeadXion
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: head
+
+- type: marking
+  id: IPCHeadXionAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: head_alt
+
+- type: marking
+  id: IPCHeadXionMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: head_monitor
+
+- type: marking
+  id: IPCChestXion
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: torso
+
+- type: marking
+  id: IPCLLegXion
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: l_leg
+
+- type: marking
+  id: IPCRLegXion
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: r_leg
+
+- type: marking
+  id: IPCLArmXion
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: l_arm
+
+- type: marking
+  id: IPCRArmXion
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: r_arm
+
+- type: marking
+  id: IPCLFootXion
+  bodyPart: LFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: l_foot
+
+- type: marking
+  id: IPCRFootXion
+  bodyPart: RFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: r_foot
+
+- type: marking
+  id: IPCLHandXion
+  bodyPart: LHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: l_hand
+
+- type: marking
+  id: IPCRHandXion
+  bodyPart: RHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: r_hand
+
+# Zeng-Hu Pharmaceuticals
+
+- type: marking
+  id: IPCHeadZengHu
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: head
+
+- type: marking
+  id: IPCChestZengHu
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: torso
+
+- type: marking
+  id: IPCLLegZengHu
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: l_leg
+
+- type: marking
+  id: IPCRLegZengHu
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: r_leg
+
+- type: marking
+  id: IPCLArmZengHu
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: l_arm
+
+- type: marking
+  id: IPCRArmZengHu
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: r_arm
+
+- type: marking
+  id: IPCLFootZengHu
+  bodyPart: LFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: l_foot
+
+- type: marking
+  id: IPCRFootZengHu
+  bodyPart: RFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: r_foot
+
+- type: marking
+  id: IPCLHandZengHu
+  bodyPart: LHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: l_hand
+
+- type: marking
+  id: IPCRHandZengHu
+  bodyPart: RHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/zenghu.rsi
+    state: r_hand
+
+# Shellguard Munitions
+
+- type: marking
+  id: IPCHeadShellguard
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: head
+
+- type: marking
+  id: IPCHeadShellguardAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: head_alt
+
+- type: marking
+  id: IPCHeadShellguardMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: head_monitor
+
+- type: marking
+  id: IPCChestShellguard
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: torso
+
+- type: marking
+  id: IPCLLegShellguard
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: l_leg
+
+- type: marking
+  id: IPCRLegShellguard
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: r_leg
+
+- type: marking
+  id: IPCLArmShellguard
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/xion.rsi
+    state: l_arm
+
+- type: marking
+  id: IPCRArmShellguard
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/shellguard.rsi
+    state: r_arm
+
+- type: marking
+  id: IPCLFootShellguard
+  bodyPart: LFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/shellguard.rsi
+    state: l_foot
+
+- type: marking
+  id: IPCRFootShellguard
+  bodyPart: RFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/shellguard.rsi
+    state: r_foot
+
+- type: marking
+  id: IPCLHandShellguard
+  bodyPart: LHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/shellguard.rsi
+    state: l_hand
+
+- type: marking
+  id: IPCRHandShellguard
+  bodyPart: RHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/shellguard.rsi
+    state: r_hand
+
+# Unbranded
+
+- type: marking
+  id: IPCHeadUnbranded
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: head
+
+- type: marking
+  id: IPCChestUnbranded
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: torso
+
+- type: marking
+  id: IPCLLegUnbranded
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: l_leg
+
+- type: marking
+  id: IPCRLegUnbranded
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: r_leg
+
+- type: marking
+  id: IPCLArmUnbranded
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: l_arm
+
+- type: marking
+  id: IPCRArmUnbranded
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: r_arm
+
+- type: marking
+  id: IPCLFootUnbranded
+  bodyPart: LFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: l_foot
+
+- type: marking
+  id: IPCRFootUnbranded
+  bodyPart: RFoot
+  markingCategory: Feet
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: r_foot
+
+- type: marking
+  id: IPCLHandUnbranded
+  bodyPart: LHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: l_hand
+
+- type: marking
+  id: IPCRHandUnbranded
+  bodyPart: RHand
+  markingCategory: Hands
+  speciesRestriction: [IPC]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/IPC/unbranded.rsi
+    state: r_hand

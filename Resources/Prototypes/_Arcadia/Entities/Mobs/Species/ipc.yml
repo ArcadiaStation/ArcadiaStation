@@ -1,0 +1,37 @@
+- type: entity
+  parent: BaseMobSpeciesRobotic
+  id: BaseMobIPC
+  name: Urist McBeep
+  abstract: true
+  components:
+  - type: Hunger
+  - type: Icon
+    sprite: _Arcadia/Mobs/Species/IPC/parts.rsi
+    state: full
+  - type: Thirst
+  - type: HumanoidAppearance
+    species: IPC
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobIPCDummy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female

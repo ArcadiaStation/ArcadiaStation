@@ -1,0 +1,48 @@
+- type: entity
+  save: false
+  parent:
+  - MobFlammable
+  - BaseMobSpecies
+  id: BaseMobSpeciesRobotic
+  abstract: true
+  components:
+  - type: Blindable
+  # Other
+  - type: Temperature
+    heatDamageThreshold: 325
+    coldDamageThreshold: 260
+    currentTemperature: 310.15
+    specificHeat: 42
+    coldDamage:
+      types:
+        Cold: 0.1 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat: 1.5 #per second, scales with temperature & other constants
+  - type: TemperatureSpeed
+    thresholds:
+      293: 0.8
+      280: 0.6
+      260: 0.4
+  - type: ThermalRegulator
+    metabolismHeat: 800
+    radiatedHeat: 100
+    implicitHeatRegulation: 500
+    sweatHeatRegulation: 2000
+    shiveringHeatRegulation: 2000
+    normalBodyTemperature: 310.15
+    thermalRegulationTemperatureThreshold: 25
+  - type: Butcherable
+    butcheringType: Spike # TODO human.
+    spawned:
+      - id: SheetPlasteel1
+        amount: 20
+      - id: SheetSteel1
+        amount: 10
+      - id: SheetGlass1
+        amount: 5
+      - id: SheetPlastic1
+        amount: 5
+# add wires or something later
+  - type: FireVisuals
+    alternateState: Standing
